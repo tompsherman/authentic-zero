@@ -2,10 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid orangered;
 }
 
 body {
   padding: 3rem;
+}
+
+.App {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  transition: all 1s;
+  /* text-align: center; */
 }
 
 button {
@@ -14,4 +26,9 @@ button {
   width: 150px;
   cursor: pointer;
   font-size: 1.2rem;
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 2px var(--text-primary) solid;
+  float: right;
+  transition: all 2s;
 }
